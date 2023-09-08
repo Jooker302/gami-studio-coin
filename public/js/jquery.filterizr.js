@@ -506,7 +506,7 @@
             cols = Math.round(self.width() / self.find('.filtr-item').outerWidth()),
             rows = 0,
             //Item data
-            itemWidth  = array[0].outerWidth(),
+            // itemWidth  = array[0].outerWidth(),
             itemHeight = 0,
             //Position calculation vars
             left = 0, top = 0,
@@ -634,7 +634,7 @@
                     }
                 }
                 rows = Math.ceil(array.length / cols);
-                containerHeight = rows * array[0].outerHeight();
+                // containerHeight = rows * array[0].outerHeight();
             }
             //Update the height of .filtr-container based on new positions
             self.css('height', containerHeight);
